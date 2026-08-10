@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Hello Step
         run: |
-        echo "first command run"
-        echo "second command run"
+          echo "first command run"
+          echo "second command run"
         
     
