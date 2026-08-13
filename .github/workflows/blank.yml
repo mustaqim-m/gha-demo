@@ -1,8 +1,9 @@
-name: Blank
+name: Github action Demo
 on: push     
 jobs:
-  build:
+  action-demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Build step
-        run: echo "Hello, ${{ secrets.DOCKER_PASSWORD }}"
+      - name: check ou the code
+        uses: actions/checkout@4
+      - name: Print index.html file
