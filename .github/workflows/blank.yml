@@ -7,3 +7,4 @@ jobs:
       - name: check ou the code
         uses: actions/checkout@4
       - name: Print index.html file
+        run: cat index.html
