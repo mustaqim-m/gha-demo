@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check ou the code
-        uses: actions/checkout@V4
+        uses: actions/checkout@v4
       - name: Print index.html file
         run: cat index.html
