@@ -10,8 +10,8 @@ jobs:
           echo "This repo name is ${{ github.repository }}"
           echo "The Branch name is ${{ github.ref_name }}"
           
-      - name: Print all veribale in github
-        run: "${{ toJson(github) }}"
+      - name: Print all veribale under github
+        run: echo "${{ toJson(github) }}"
         
       - name: Print environment variables
         run: echo "$GITHUB_SHA"
