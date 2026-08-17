@@ -11,6 +11,6 @@ on:
       run-on: ubuntu-latest
       steps:
           - name: Deploy to App
-            run: echo "Deploying the application to the ${{inputs.environment}}"
+            run: echo "Deploying the application to the ${{inputs.environments}}"
      
          
