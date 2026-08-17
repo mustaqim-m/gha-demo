@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: use context variabls
         run: |
-          echo "This workflow is triggered by ${{ guthub.actor }}"
+          echo "This workflow is triggered by ${{ github.actor }}"
           echo "This repo name is ${{ github.repository }}"
           echo "The Branch name is ${{ github.ref_name }}"
       - name: Print all veribale in github
